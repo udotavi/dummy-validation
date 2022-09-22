@@ -1,0 +1,12 @@
+{
+  "scriptFile": "validation.py",
+  "bindings": [
+    {
+      "name": "msg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "queue-dummy-validation",
+      "connection": "sbnsdummydlcreation_SERVICEBUS"
+    }
+  ]
+}
